@@ -5,17 +5,20 @@ public class EnemyCannon : MonoBehaviour
     [Header("Configuración de Disparo")]
     public GameObject bulletPrefab;
     public Transform firePoint;
-    public float fireRate = 0.15f;      // Frecuencia de disparo dentro de la ráfaga
+    public float fireRate = 0.15f;
     public float bulletSpeed = 15f;
 
     [Header("Objetivo")]
-    [Tooltip("La etiqueta (Tag) del objeto del jugador que se buscará en la escena.")]
     public string playerTag = "Player";
     public float attackRange = 10f;
     
     [Header("Patrón de Ráfaga")]
-    public int bulletsPerBurst = 3;     // Cuántas balas se disparan en una ráfaga
-    public float burstPauseTime = 2f;   // El tiempo de espera entre cada ráfaga
+    public int bulletsPerBurst = 3;
+    public float burstPauseTime = 2f;
+    
+    // Este campo te permite definir la dirección inicial del cañón.
+    [Header("Orientación Inicial")]
+    public Vector2 defaultDirection = Vector2.right; // Por defecto apunta a la derecha
     
     private Transform player;
     private float timer;
@@ -23,21 +26,16 @@ public class EnemyCannon : MonoBehaviour
 
     void Start()
     {
-        // Se inicializa el temporizador con el tiempo de pausa para que el cañón espere antes del primer ataque.
         timer = burstPauseTime;
     }
 
     void Update()
     {
-        // Si el objetivo (jugador) aún no ha sido encontrado, lo buscamos en la escena.
-        // Esto se ejecutará en cada frame hasta que el jugador aparezca y sea asignado.
         if (player == null)
         {
             FindPlayerByTag();
         }
 
-        // Si el jugador, el prefab de la bala o el punto de disparo no están asignados,
-        // no hacemos nada para evitar errores.
         if (player == null || bulletPrefab == null || firePoint == null)
         {
             return;
@@ -47,7 +45,6 @@ public class EnemyCannon : MonoBehaviour
 
         if (distance <= attackRange)
         {
-            // Hacemos que el cañón apunte al jugador.
             AimAtPlayer();
 
             timer -= Time.deltaTime;
@@ -69,9 +66,6 @@ public class EnemyCannon : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Busca un objeto con la etiqueta especificada y lo asigna como el objetivo del cañón.
-    /// </summary>
     private void FindPlayerByTag()
     {
         GameObject playerObject = GameObject.FindWithTag(playerTag);
@@ -83,13 +77,17 @@ public class EnemyCannon : MonoBehaviour
     }
 
     /// <summary>
-    /// Gira el cañón para que apunte directamente al jugador.
+    /// Gira el cañón para que apunte al jugador, basándose en su orientación inicial.
     /// </summary>
     void AimAtPlayer()
     {
-        Vector2 direction = player.position - transform.position;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        
+        // Calculamos el ángulo entre la dirección inicial del cañón y la dirección hacia el jugador.
+        float angleOffset = Vector2.SignedAngle(defaultDirection, directionToPlayer);
+        
+        // Rotamos el cañón para que apunte al jugador desde su orientación inicial.
+        transform.rotation = Quaternion.Euler(0, 0, angleOffset);
     }
 
     /// <summary>
@@ -102,7 +100,7 @@ public class EnemyCannon : MonoBehaviour
         
         if (rb != null)
         {
-            rb.linearVelocity = firePoint.right * bulletSpeed;
+            rb.linearVelocity = (player.position - firePoint.position).normalized * bulletSpeed;
         }
         
         Destroy(bullet, 5f);
