@@ -1,2 +1,0 @@
-# JuegoPrueba2D
-
