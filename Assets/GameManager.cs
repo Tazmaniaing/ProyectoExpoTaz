@@ -33,6 +33,8 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        totalDiamonds = PlayerPrefs.GetInt("Diamonds");
     }
 
     /// <summary>
@@ -67,6 +69,7 @@ public class GameManager : MonoBehaviour
     public void AddDiamond(int amount = 1)
     {
         totalDiamonds += amount;
+        PlayerPrefs.SetInt("Diamonds", totalDiamonds);
         OnGameDataChanged.Invoke();
     }
 

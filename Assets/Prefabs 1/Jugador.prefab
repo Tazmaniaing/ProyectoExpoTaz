@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8276780400894880346}
   - component: {fileID: 5502521873491391046}
   - component: {fileID: 2071065414648470834}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Jugador
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ MonoBehaviour:
   dimensionesCaja: {x: 0.45, y: 0.05}
   capasSalto:
     serializedVersion: 2
-    m_Bits: 576
+    m_Bits: 8
   sePuedeMoverEnElAire: 1
 --- !u!114 &8495149314925173498
 MonoBehaviour:
@@ -195,6 +195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaMaxima: 3
   vidaActual: 0
+  diamantes: 0
 --- !u!114 &5502521873491391046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +212,7 @@ MonoBehaviour:
   dimensionesCaja: {x: 1, y: 0.5}
   capasInteractuables:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
 --- !u!114 &2071065414648470834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,7 +266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2900580309668583534}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: ControladorInteractuar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8048055816903354976}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: ControladorAtaque3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2900981342287784423}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: ControladorAtaque2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -390,7 +391,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1589102389888633765}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: ControladorAtaque1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,8 +488,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 652346047
-  m_SortingLayer: -2
-  m_SortingOrder: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 4236677631525818213, guid: 7d3eb53a73263b940a8a34d99070c3e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

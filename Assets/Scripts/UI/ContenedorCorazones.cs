@@ -1,59 +1,73 @@
-using System;
 using UnityEngine;
 
 public class ContenedorCorazones : MonoBehaviour
 {
     [SerializeField] private CorazonUI[] corazones;
+    [SerializeField] private VidaJugador jugador;
 
-    void OnEnable()
+    private void Awake()
     {
-        // Verifica si el GameManager ya existe antes de suscribirse.
-        if (GameManager.instance != null)
+        if (jugador == null)
         {
-            GameManager.OnGameDataChanged.AddListener(UpdateHearts);
-        }
-        else
-        {
-            Debug.LogWarning("ContenedorCorazones: GameManager no encontrado. No se puede escuchar el evento.");
-        }
-        
-        // También actualiza los corazones al inicio, con un chequeo seguro.
-        UpdateHearts();
-    }
-
-    void OnDisable()
-    {
-        // Verifica si el GameManager existe antes de desuscribirse.
-        if (GameManager.instance != null)
-        {
-            GameManager.OnGameDataChanged.RemoveListener(UpdateHearts);
+            GameObject go = GameObject.FindGameObjectWithTag("Player");
+            if (go) jugador = go.GetComponent<VidaJugador>();
         }
     }
 
-    private void UpdateHearts()
+    private void OnEnable()
     {
-        // --- ¡Esta es la línea clave que se ha mejorado! ---
-        // Verifica si el GameManager existe antes de obtener la vida.
-        if (GameManager.instance == null)
-        {
-            Debug.LogWarning("ContenedorCorazones: No se puede actualizar los corazones. GameManager.instance es nulo.");
-            return;
-        }
+        if (jugador != null)
+            jugador.OnVidaCambiada += OnVidaCambiada;
 
-        int vidaActual = GameManager.instance.currentHealth;
-        // -----------------------------------------------------
+        if (GameManager.instance != null)
+            GameManager.OnGameDataChanged.AddListener(ActualizarPorGameManager);
+
+        ActualizarInicial();
+    }
+
+    private void OnDisable()
+    {
+        if (jugador != null)
+            jugador.OnVidaCambiada -= OnVidaCambiada;
+
+        if (GameManager.instance != null)
+            GameManager.OnGameDataChanged.RemoveListener(ActualizarPorGameManager);
+    }
+
+    private void ActualizarInicial()
+    {
+        if (jugador != null)
+            OnVidaCambiada(jugador.GetVidaActual(), jugador.GetVidaMaxima());
+        else if (GameManager.instance != null)
+            UpdateHearts(GameManager.instance.currentHealth);
+    }
+
+    private void OnVidaCambiada(int vida, int max)
+    {
+        UpdateHearts(vida);
+    }
+
+    private void ActualizarPorGameManager()
+    {
+        if (GameManager.instance == null) return;
+        UpdateHearts(GameManager.instance.currentHealth);
+    }
+
+    private void UpdateHearts(int vidaActual)
+    {
+        if (corazones == null) return;
 
         for (int i = 0; i < corazones.Length; i++)
         {
             if (i < vidaActual)
             {
-                if (corazones[i].EstaActivo()) { continue; }
-                corazones[i].ActivarCorazon();
+                if (!corazones[i].EstaActivo())
+                    corazones[i].ActivarCorazon();
             }
             else
             {
-                if (!corazones[i].EstaActivo()) { continue; }
-                corazones[i].DesactivarCorazon();
+                if (corazones[i].EstaActivo())
+                    corazones[i].DesactivarCorazon();
             }
         }
     }

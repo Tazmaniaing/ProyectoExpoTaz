@@ -8,7 +8,7 @@ public class InteractuarObjetosJugador : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Interactuar"))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             Interactuar();
         }
@@ -17,7 +17,6 @@ public class InteractuarObjetosJugador : MonoBehaviour
     private void Interactuar()
     {
         Collider2D[] objetosTocados = Physics2D.OverlapBoxAll(controladorInteractuar.position, dimensionesCaja, 0f, capasInteractuables);
-
         foreach (Collider2D objeto in objetosTocados)
         {
             if (objeto.TryGetComponent(out IInteractuable interactuable))

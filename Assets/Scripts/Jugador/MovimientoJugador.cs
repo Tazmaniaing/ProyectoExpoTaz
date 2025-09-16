@@ -29,9 +29,6 @@ public class MovimientoJugador : MonoBehaviour
     private bool enSuelo;
     private bool entradaSalto;
 
-    // ----------------------------
-    // INVENTARIO & PERSISTENCIA
-    // ----------------------------
     private static MovimientoJugador instancia;
     public static HashSet<string> inventario = new HashSet<string>();
 
@@ -48,6 +45,10 @@ public class MovimientoJugador : MonoBehaviour
             return;
         }
 
+        if (!rb2D) rb2D = GetComponent<Rigidbody2D>();
+        if (!animator) animator = GetComponent<Animator>();
+        if (!colisionadorJugador) colisionadorJugador = GetComponent<Collider2D>();
+
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -59,13 +60,12 @@ public class MovimientoJugador : MonoBehaviour
             transform.position = puntoInicio.transform.position;
         }
 
-        // Destruir ítems ya recogidos
-        GameObject[] items = GameObject.FindGameObjectsWithTag("Item");
-        foreach (GameObject item in items)
+        var items = FindObjectsOfType<ItemRecolectable>();
+        for (int i = 0; i < items.Length; i++)
         {
-            if (inventario.Contains(item.name))
+            if (inventario.Contains(items[i].nombreItem))
             {
-                Destroy(item);
+                Destroy(items[i].gameObject);
             }
         }
     }
@@ -175,7 +175,6 @@ public class MovimientoJugador : MonoBehaviour
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
     }
 
-    // Método público para recolectar ítems
     public static void AgregarItem(string itemName)
     {
         inventario.Add(itemName);
