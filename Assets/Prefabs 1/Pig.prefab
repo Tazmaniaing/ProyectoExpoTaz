@@ -102,7 +102,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 349371485527325926}
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   m_Name: Visuales
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +216,11 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
+<<<<<<< HEAD
   m_LinearDamping: 0.5
+=======
+  m_LinearDamping: 0
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   m_AngularDamping: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 5606c88902039f44cb6ea2b02136eb83, type: 2}
@@ -290,19 +298,33 @@ MonoBehaviour:
   capasSuelo:
     serializedVersion: 2
     m_Bits: 8
+<<<<<<< HEAD
   visual: {fileID: 0}
   iniciarHaciaDerecha: 1
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   velocidadDeMovimientoBase: 2
   velocidadDeMovimientoActual: 2
   controladorFrente: {fileID: 5300471901688329001}
   distanciaRayoFrente: 0.75
   controladorFrenteArriba: {fileID: 6301658934505723797}
+<<<<<<< HEAD
   controladorSuelo: {fileID: 1657361656828236079}
   distanciaRayoSuelo: 0.25
+=======
+  tocandoSueloFrenteArriba: 0
+  controladorSuelo: {fileID: 1657361656828236079}
+  distanciaRayoSuelo: 0.25
+  tocandoSuelo: 1
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   tiempoAEsperarPorDefecto: 3
   fuerzaSalto: 5
   dimensionesCaja: {x: 0.36, y: 0.05}
   controladorEstaEnSuelo: {fileID: 4569528763190465560}
+<<<<<<< HEAD
+=======
+  estaEnElSuelo: 0
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   tiempoParaDesocupar: 0
 --- !u!114 &1789256913850375776
 MonoBehaviour:
@@ -319,7 +341,11 @@ MonoBehaviour:
   rb2D: {fileID: 2568446558065720130}
   animator: {fileID: 3579229768933053043}
   movimientoEnemigo: {fileID: 2404405103201683505}
+<<<<<<< HEAD
   vidaMaxima: 2
+=======
+  vidaMaxima: 3
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   vidaActual: 0
   fuerzaRetroceso: {x: 0.5, y: 2}
   tiempoMinimoRetroceso: 0.25
@@ -340,9 +366,14 @@ MonoBehaviour:
   controladorAtaque: {fileID: 3824392174895395601}
   movimientoEnemigo: {fileID: 2404405103201683505}
   rangoTrigger: {fileID: 3610017657455125058}
+<<<<<<< HEAD
   usarProyectil: 0
   radioCirculo: 0.35
   danoAtaque: 1
+=======
+  radioCirculo: 0.35
+  "da\xF1oAtaque": 1
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   duracionDelAtaque: 0.6
   tiempoAEsperarDespuesDelAtaque: 0.75
   tagObjetivo: Player
@@ -350,10 +381,13 @@ MonoBehaviour:
   retardoGolpe: 0.15
   radioRangoFallback: 1
   tiempoUltimoAtaque: -999
+<<<<<<< HEAD
   prefabProyectil: {fileID: 0}
   puntoDisparo: {fileID: 0}
   velocidadProyectil: 8
   vidaProyectil: 4
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
 --- !u!58 &3610017657455125058
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -402,7 +436,11 @@ GameObject:
   - component: {fileID: 4523076280265062439}
   - component: {fileID: 3579229768933053043}
   - component: {fileID: 8439532101589746623}
+<<<<<<< HEAD
   m_Layer: 7
+=======
+  m_Layer: 0
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -518,9 +556,14 @@ MonoBehaviour:
   controladorAtaque: {fileID: 733322703307938132}
   movimientoEnemigo: {fileID: 2404405103201683505}
   rangoTrigger: {fileID: 3610017657455125058}
+<<<<<<< HEAD
   usarProyectil: 0
   radioCirculo: 0.35
   danoAtaque: 1
+=======
+  radioCirculo: 0.35
+  "da\xF1oAtaque": 1
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   duracionDelAtaque: 0.6
   tiempoAEsperarDespuesDelAtaque: 0.75
   tagObjetivo: Player
@@ -528,10 +571,13 @@ MonoBehaviour:
   retardoGolpe: 0.15
   radioRangoFallback: 1
   tiempoUltimoAtaque: -999
+<<<<<<< HEAD
   prefabProyectil: {fileID: 0}
   puntoDisparo: {fileID: 0}
   velocidadProyectil: 8
   vidaProyectil: 4
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
 --- !u!1 &8557497852928015265
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs 1/Archer.prefab.meta
 guid: 9e6ac2d4dde411843bcf9f79c262d124
+========
+guid: 50d09bd56de597e468a2702133b47511
+>>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479:Assets/Prefabs 1/Pig.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

@@ -3,14 +3,36 @@
   "WorkspaceRootPath": "B:\\Unity\\Saves\\ProyectoExpoTaz\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\enemigo\\proyectilenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigo\\proyectilenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\ui\\contenedorcorazones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\contenedorcorazones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\jugador\\combatejugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\combatejugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\itemrecolectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\itemrecolectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\objetos\\diamante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\diamante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\jugador\\interactuarobjetosjugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\interactuarobjetosjugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
     },
     {
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\enemigo\\ataqueenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigo\\ataqueenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\camerafollowandavanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\camerafollowandavanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -76,6 +98,29 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\scripts\\controladorvibracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\jugador\\movimientojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\movimientojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\jugador\\vidajugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\vidajugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\objetos\\corazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\corazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\objetos\\cajaloot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\cajaloot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\seguirjugadorcamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\seguirjugadorcamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\controladorvibracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladorvibracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -91,6 +136,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "ProyectilEnemigo.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Enemigo\\ProyectilEnemigo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigo\\ProyectilEnemigo.cs",
@@ -225,11 +271,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
               "Title": "ContenedorCorazones.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\UI\\ContenedorCorazones.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ContenedorCorazones.cs",
               "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\UI\\ContenedorCorazones.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\ContenedorCorazones.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T12:13:01.986Z"
@@ -249,6 +298,16 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
+=======
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T12:13:01.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
               "Title": "CombateJugador.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\CombateJugador.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\CombateJugador.cs",
@@ -256,16 +315,77 @@
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\CombateJugador.cs",
               "ViewState": "AgIAAG0AAAAAAAAAAAAAwIkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-09-15T11:58:45.147Z"
+=======
+              "WhenOpened": "2025-09-15T11:58:45.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemRecolectable.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\ItemRecolectable.cs",
+              "RelativeDocumentMoniker": "Assets\\ItemRecolectable.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\ItemRecolectable.cs",
+              "RelativeToolTip": "Assets\\ItemRecolectable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:56:40.75Z",
+              "EditorCaption": ""
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< HEAD
+=======
+              "Title": "Diamante.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Objetos\\Diamante.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\Diamante.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Objetos\\Diamante.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objetos\\Diamante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:55:18.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AtaqueEnemigo.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Enemigo\\AtaqueEnemigo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigo\\AtaqueEnemigo.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Enemigo\\AtaqueEnemigo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemigo\\AtaqueEnemigo.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowD4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:09:19.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VidaJugador.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\VidaJugador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\VidaJugador.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\VidaJugador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\VidaJugador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:51:45.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
               "Title": "Corazon.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Objetos\\Corazon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\Corazon.cs",
               "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Objetos\\Corazon.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objetos\\Corazon.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAQAAAAAAAAAAAAQwCUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T10:48:25.993Z"
@@ -273,6 +393,29 @@
             {
               "$type": "Document",
               "DocumentIndex": 15,
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T10:48:25.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovimientoJugador.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\MovimientoJugador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\MovimientoJugador.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\MovimientoJugador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\MovimientoJugador.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAlwD4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:57:23.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
               "Title": "InteractuarObjetosJugador.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\InteractuarObjetosJugador.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\InteractuarObjetosJugador.cs",
@@ -280,11 +423,20 @@
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\InteractuarObjetosJugador.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-09-15T09:57:50.553Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+=======
+              "WhenOpened": "2025-09-15T09:57:50.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
               "Title": "CajaLoot.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Objetos\\CajaLoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\CajaLoot.cs",
@@ -292,11 +444,20 @@
               "RelativeToolTip": "Assets\\Scripts\\Objetos\\CajaLoot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-09-15T09:44:50.882Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
+=======
+              "WhenOpened": "2025-09-15T09:44:50.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
               "Title": "SeguirJugadorCamara.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\SeguirJugadorCamara.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SeguirJugadorCamara.cs",
@@ -304,11 +465,20 @@
               "RelativeToolTip": "Assets\\Scripts\\SeguirJugadorCamara.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-09-15T09:44:29.554Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+=======
+              "WhenOpened": "2025-09-15T09:44:29.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
               "Title": "ControladorVibracion.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\ControladorVibracion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ControladorVibracion.cs",
@@ -316,7 +486,12 @@
               "RelativeToolTip": "Assets\\Scripts\\ControladorVibracion.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-09-15T09:43:31.423Z"
+=======
+              "WhenOpened": "2025-09-15T09:43:31.423Z",
+              "EditorCaption": ""
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
             }
           ]
         }

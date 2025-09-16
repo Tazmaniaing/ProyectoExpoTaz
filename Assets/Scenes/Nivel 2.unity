@@ -855,7 +855,11 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 155516241
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: -1
+=======
+  m_SortingOrder: 1
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -7338,10 +7342,17 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -1.8041475
     y: -0.72950816
     width: 4.608295
     height: 2.4590163
+=======
+    x: -1.1778524
+    y: -0.36206895
+    width: 3.3557048
+    height: 1.7241379
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -7812,7 +7823,11 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1962031983
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: -2
+=======
+  m_SortingOrder: 0
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -13024,6 +13039,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1614086483534157699, guid: 50d09bd56de597e468a2702133b47511, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -13031,6 +13047,15 @@ PrefabInstance:
     - target: {fileID: 3824392174895395601, guid: 50d09bd56de597e468a2702133b47511, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.36
+=======
+    - target: {fileID: 2568446558065720130, guid: 50d09bd56de597e468a2702133b47511, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824392174895395601, guid: 50d09bd56de597e468a2702133b47511, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.602
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
       objectReference: {fileID: 0}
     - target: {fileID: 3824392174895395601, guid: 50d09bd56de597e468a2702133b47511, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13072,6 +13097,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pig (2)
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 5069332470913998441, guid: 50d09bd56de597e468a2702133b47511, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -13080,6 +13106,8 @@ PrefabInstance:
       propertyPath: usarProyectil
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13448,10 +13476,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Diamante (1)
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 7286142804900947224, guid: d0322892f0f8cc34c83e02e5d5d66697, type: 3}
       propertyPath: consumirAunqueNoSirva
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
     - target: {fileID: 7465406768449422605, guid: d0322892f0f8cc34c83e02e5d5d66697, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.418981
@@ -13628,10 +13659,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pig
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 5069332470913998441, guid: 50d09bd56de597e468a2702133b47511, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14673,10 +14707,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pig (1)
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 5069332470913998441, guid: 50d09bd56de597e468a2702133b47511, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15569,6 +15606,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+<<<<<<< HEAD
 --- !u!1001 &2355678280641845261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15876,6 +15914,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27dcea790cc2dbe4698a48fcae52277e, type: 3}
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
 --- !u!1001 &8879661758776921268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15928,10 +15968,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pig
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 5069332470913998441, guid: 50d09bd56de597e468a2702133b47511, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15967,6 +16010,9 @@ SceneRoots:
   - {fileID: 2095600833}
   - {fileID: 1037318257}
   - {fileID: 986754003}
+<<<<<<< HEAD
   - {fileID: 2355678280641845261}
   - {fileID: 3746745381050661987}
   - {fileID: 7519931501846867040}
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
