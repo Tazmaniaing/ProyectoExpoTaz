@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 212488436158164903}
   - component: {fileID: 4344923388816683528}
   - component: {fileID: 3142385490422945015}
-  - component: {fileID: 1407313387725817248}
   - component: {fileID: 7286142804900947224}
   m_Layer: 8
   m_Name: Diamante
@@ -80,8 +79,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1639032843
-  m_SortingLayer: -1
-  m_SortingOrder: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -4658123360840285283, guid: fde57cf93d3a7cc4e9f972135af86c1f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -201,18 +200,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 4344923388816683528}
---- !u!114 &1407313387725817248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245849479137087609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e252ec954fc45264faa318c2a63c6b4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7286142804900947224
 MonoBehaviour:
   m_ObjectHideFlags: 0

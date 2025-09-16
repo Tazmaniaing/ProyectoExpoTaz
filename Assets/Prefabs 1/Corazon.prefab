@@ -11,12 +11,11 @@ GameObject:
   - component: {fileID: 7253207268480662065}
   - component: {fileID: 3531946095469104081}
   - component: {fileID: 7081776533801921527}
-  - component: {fileID: 4407588233599905618}
   - component: {fileID: 4414076795814878585}
   - component: {fileID: 7721096828440623585}
   m_Layer: 8
   m_Name: Corazon
-  m_TagString: Untagged
+  m_TagString: HP
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,7 +77,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1639032843
-  m_SortingLayer: -1
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7524770952856964032, guid: 93e1cc6151a85164ca58c8fedf378b02, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,7 +120,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -137,33 +136,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.39475584, y: 0.35100698}
   m_EdgeRadius: 0
---- !u!50 &4407588233599905618
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5423266790089185395}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 4
 --- !u!95 &4414076795814878585
 Animator:
   serializedVersion: 7
@@ -200,3 +172,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 4414076795814878585}
   cantidadCuracion: 1
+  tagDeCuracion: HP
