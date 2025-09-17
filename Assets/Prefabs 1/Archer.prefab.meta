@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Prefabs 1/Archer.prefab.meta
 guid: 9e6ac2d4dde411843bcf9f79c262d124
 ========
 guid: 50d09bd56de597e468a2702133b47511
 >>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479:Assets/Prefabs 1/Pig.prefab.meta
+=======
+<<<<<<<< HEAD:Assets/Prefabs 1/Arrow.prefab.meta
+guid: 0f77faaf02653ac4e915f7d7b2434291
+========
+guid: 9e6ac2d4dde411843bcf9f79c262d124
+>>>>>>>> d279adf (Agregada escena y carpeta Sounds):Assets/Prefabs 1/Archer.prefab.meta
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
 PrefabImporter:
   externalObjects: {}
   userData: 

@@ -1,8 +1,11 @@
 using System.Collections;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using System.Collections.Generic;
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
 using UnityEngine;
 
 public class AtaqueEnemigo : MonoBehaviour
@@ -13,12 +16,16 @@ public class AtaqueEnemigo : MonoBehaviour
     [SerializeField] private Transform controladorAtaque;
     [SerializeField] private MovimientoEnemigo movimientoEnemigo;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
     [SerializeField] private CircleCollider2D rangoTrigger;
 
     [Header("Ataque")]
     [SerializeField] private bool usarProyectil = false;
     [SerializeField] private float radioCirculo = 0.35f;
     [SerializeField] private int danoAtaque = 1;
+<<<<<<< HEAD
 =======
     [SerializeField] private CircleCollider2D rangoTrigger; // Debe ser IsTrigger = true
 
@@ -35,6 +42,16 @@ public class AtaqueEnemigo : MonoBehaviour
     [SerializeField] private float tiempoUltimoAtaque = -999f;
 
 <<<<<<< HEAD
+=======
+    [SerializeField] private float duracionDelAtaque = 0.6f;
+    [SerializeField] private float tiempoAEsperarDespuesDelAtaque = 0.75f;
+    [SerializeField] private string tagObjetivo = "Player";
+    [SerializeField] private float intervaloAutoAtaque = 1.5f;
+    [SerializeField] private float retardoGolpe = 0.15f;
+    [SerializeField] private float radioRangoFallback = 1f;
+    [SerializeField] private float tiempoUltimoAtaque = -999f;
+
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
     [Header("Proyectil")]
     [SerializeField] private ProyectilEnemigo prefabProyectil;
     [SerializeField] private Transform puntoDisparo;
@@ -44,17 +61,23 @@ public class AtaqueEnemigo : MonoBehaviour
     private bool objetivoEnRango;
     private Coroutine rutina;
 
+<<<<<<< HEAD
 =======
     private bool objetivoEnRango;
     private Coroutine rutina;
 
     // --- Helpers de detección ---
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
     private bool EsObjetivo(Collider2D other)
     {
         if (other == null) return false;
         if (other.CompareTag(tagObjetivo)) return true;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
         Transform root = other.transform.root;
         return root != null && root.CompareTag(tagObjetivo);
     }
@@ -80,6 +103,7 @@ public class AtaqueEnemigo : MonoBehaviour
             if (EsObjetivo(cols[i])) return cols[i].transform.root;
         }
         return null;
+<<<<<<< HEAD
 =======
 
         // Revisa el root por si el collider es un hijo (arma, hitbox, etc.)
@@ -116,10 +140,13 @@ public class AtaqueEnemigo : MonoBehaviour
             return false;
         }
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
     }
 
     private void IntentarArrancarRutina()
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (objetivoEnRango && rutina == null) rutina = StartCoroutine(RutinaAutoAtaque());
     }
@@ -131,6 +158,11 @@ public class AtaqueEnemigo : MonoBehaviour
 
     // --- Triggers ---
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+        if (objetivoEnRango && rutina == null) rutina = StartCoroutine(RutinaAutoAtaque());
+    }
+
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!EsObjetivo(other)) return;
@@ -149,11 +181,15 @@ public class AtaqueEnemigo : MonoBehaviour
     {
         if (!EsObjetivo(other)) return;
 <<<<<<< HEAD
+<<<<<<< HEAD
         objetivoEnRango = BuscarObjetivoEnRango() != null;
 =======
         // Antes de apagar, verifica si sigue habiendo alguna parte del Player dentro
         objetivoEnRango = HayObjetivoDentro();
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+        objetivoEnRango = BuscarObjetivoEnRango() != null;
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
         if (!objetivoEnRango && rutina != null)
         {
             StopCoroutine(rutina);
@@ -162,17 +198,23 @@ public class AtaqueEnemigo : MonoBehaviour
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     // --- Lógica de ataque automático ---
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
     private IEnumerator RutinaAutoAtaque()
     {
         while (objetivoEnRango)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             // Cooldown antes del siguiente intento de ataque
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
             float proximo = tiempoUltimoAtaque + intervaloAutoAtaque;
             if (Time.time < proximo)
             {
@@ -181,6 +223,9 @@ public class AtaqueEnemigo : MonoBehaviour
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
             if (movimientoEnemigo.GetEstadoActual() == EstadosEnemigo.Ocupado || !movimientoEnemigo.EstaEnElSuelo())
             {
                 yield return null;
@@ -194,6 +239,7 @@ public class AtaqueEnemigo : MonoBehaviour
 
             if (usarProyectil) Disparar();
             else Atacar();
+<<<<<<< HEAD
 =======
             // Comp puerta: no atacar si está ocupado o no está en el suelo
             bool ocupado = movimientoEnemigo.GetEstadoActual() == EstadosEnemigo.Ocupado;
@@ -217,15 +263,20 @@ public class AtaqueEnemigo : MonoBehaviour
             yield return new WaitForSeconds(retardoGolpe);
             Atacar();
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
 
             yield return new WaitForSeconds(Mathf.Max(0f, duracionDelAtaque - retardoGolpe));
             movimientoEnemigo.CambiarAEstadoEsperar(tiempoAEsperarDespuesDelAtaque);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
         // Limpieza por si sale del while
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
         rutina = null;
     }
 
@@ -237,6 +288,9 @@ public class AtaqueEnemigo : MonoBehaviour
             VidaJugador v = objetosTocados[i].GetComponent<VidaJugador>();
             if (v == null) v = objetosTocados[i].GetComponentInParent<VidaJugador>();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
             if (v != null && EsObjetivo(objetosTocados[i]))
             {
                 v.TomarDaño(danoAtaque);
@@ -244,6 +298,7 @@ public class AtaqueEnemigo : MonoBehaviour
                 break;
             }
         }
+<<<<<<< HEAD
     }
 
     private void Disparar()
@@ -282,11 +337,38 @@ public class AtaqueEnemigo : MonoBehaviour
 =======
         if (controladorAtaque) Gizmos.DrawWireSphere(controladorAtaque.position, radioCirculo);
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+    }
+
+    private void Disparar()
+    {
+        if (prefabProyectil == null)
+        {
+            tiempoUltimoAtaque = Time.time;
+            return;
+        }
+        Transform origen = puntoDisparo != null ? puntoDisparo : controladorAtaque;
+        Vector2 dir;
+        Transform objetivo = BuscarObjetivoEnRango();
+        if (objetivo != null) dir = ((Vector2)(objetivo.position - origen.position)).normalized;
+        else dir = transform.localScale.x >= 0 ? Vector2.right : Vector2.left;
+
+        ProyectilEnemigo p = Instantiate(prefabProyectil, origen.position, Quaternion.identity);
+        p.Init(dir, velocidadProyectil, danoAtaque, tagObjetivo, vidaProyectil);
+        tiempoUltimoAtaque = Time.time;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        if (!usarProyectil && controladorAtaque) Gizmos.DrawWireSphere(controladorAtaque.position, radioCirculo);
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
 
         Gizmos.color = Color.yellow;
         if (rangoTrigger)
         {
             Vector3 centro = rangoTrigger.transform.TransformPoint(rangoTrigger.offset);
+<<<<<<< HEAD
 <<<<<<< HEAD
             float r = rangoTrigger.radius * Mathf.Max(rangoTrigger.transform.lossyScale.x, rangoTrigger.transform.lossyScale.y);
 =======
@@ -295,6 +377,9 @@ public class AtaqueEnemigo : MonoBehaviour
                 rangoTrigger.transform.lossyScale.y
             );
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+            float r = rangoTrigger.radius * Mathf.Max(rangoTrigger.transform.lossyScale.x, rangoTrigger.transform.lossyScale.y);
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
             Gizmos.DrawWireSphere(centro, r);
         }
         else
@@ -302,6 +387,9 @@ public class AtaqueEnemigo : MonoBehaviour
             Gizmos.DrawWireSphere(transform.position, radioRangoFallback);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
 
         if (usarProyectil)
         {
@@ -313,7 +401,10 @@ public class AtaqueEnemigo : MonoBehaviour
                 Gizmos.DrawWireSphere(origen.position, 0.06f);
             }
         }
+<<<<<<< HEAD
 =======
 >>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
     }
 }

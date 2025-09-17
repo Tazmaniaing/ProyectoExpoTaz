@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs 1/Arrow.prefab.meta
 guid: 0f77faaf02653ac4e915f7d7b2434291
+========
+guid: 9e6ac2d4dde411843bcf9f79c262d124
+>>>>>>>> d279adf (Agregada escena y carpeta Sounds):Assets/Prefabs 1/Archer.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
