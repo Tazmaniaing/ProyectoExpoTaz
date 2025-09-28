@@ -1,10 +1,10 @@
-using Unity.Cinemachine;
+//using Unity.Cinemachine;
 using UnityEngine;
 
 public class ControladorVibracion : MonoBehaviour
 {
     [Header("Referencias")]
-    [SerializeField] private CinemachineImpulseSource cinemachineImpulseSource;
+    //[SerializeField] private CinemachineImpulseSource cinemachineImpulseSource;
 
     [Header("Vibracion Camara")]
     [SerializeField] private float vibracionX;
@@ -27,6 +27,6 @@ public class ControladorVibracion : MonoBehaviour
 
         Vector2 velocidad = new(velocidadAleatoriaX, velocidadAleatoriaY);
 
-        cinemachineImpulseSource.GenerateImpulse(velocidad);
+        //cinemachineImpulseSource.GenerateImpulse(velocidad);
     }
 }

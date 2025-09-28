@@ -1,26 +1,75 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
 public class Corazon : MonoBehaviour, IInteractuable
 {
+    [Header("Animación")]
     [SerializeField] private Animator animator;
-    [SerializeField] private int cantidadCuracion;
+
+    [Header("Curación")]
+    [SerializeField] private int cantidadCuracion = 1;
+    [SerializeField] private bool consumirAunqueEsteLleno = false;
+
+    [Header("Detección")]
+    [SerializeField] private string tagObjetivo = "Player";
+    [SerializeField] private VidaJugador jugador; // referencia directa
+
     private bool sePuedeUsar = true;
+    private Collider2D col;
 
-    public void Interactuar()
+    private void Reset()
     {
-        if (!sePuedeUsar) { return; }
-        sePuedeUsar = false;
-        animator.SetTrigger("Recoger");
+        col = GetComponent<Collider2D>();
+        if (col != null) col.isTrigger = true;
+    }
 
-        VidaJugador vidaJugador = FindFirstObjectByType<VidaJugador>();
-        if (vidaJugador != null)
+    private void Awake()
+    {
+        col = GetComponent<Collider2D>();
+        if (col != null && !col.isTrigger) col.isTrigger = true;
+
+        if (jugador == null)
         {
-            vidaJugador.CurarVida(cantidadCuracion);
+            GameObject go = GameObject.FindGameObjectWithTag(tagObjetivo);
+            if (go) jugador = go.GetComponent<VidaJugador>();
         }
     }
 
-    public void DestruirObjeto()
+    // Auto-pickup al entrar al trigger
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(gameObject);
+        if (!EsJugador(other)) return;
+        TryRecolectar();
     }
+
+    // Opcional: si lo usas también con botón
+    public void Interactuar() => TryRecolectar();
+
+    private bool EsJugador(Collider2D c)
+    {
+        if (c.CompareTag(tagObjetivo)) return true;
+        Transform root = c.transform.root;
+        return root != null && root.CompareTag(tagObjetivo);
+    }
+
+    private void TryRecolectar()
+    {
+        if (!sePuedeUsar) return;
+        if (jugador == null) return;
+
+        if (!consumirAunqueEsteLleno && jugador.EstaAlMaximo())
+            return;
+
+        int curado = jugador.Curar(Mathf.Max(1, cantidadCuracion));
+
+        if (curado > 0 || consumirAunqueEsteLleno)
+        {
+            sePuedeUsar = false;
+            if (animator != null) animator.SetTrigger("Recoger");
+            else DestruirObjeto();
+        }
+    }
+
+    // Animation Event al final
+    public void DestruirObjeto() => Destroy(gameObject);
 }

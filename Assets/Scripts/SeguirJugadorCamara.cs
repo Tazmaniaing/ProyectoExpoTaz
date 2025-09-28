@@ -1,9 +1,9 @@
-using Unity.Cinemachine;
+//using Unity.Cinemachine;
 using UnityEngine;
 
 public class SeguirJugadorCamara : MonoBehaviour
 {
-    [SerializeField] private CinemachineCamera cinemachineCamera;
+    //[SerializeField] private CinemachineCamera cinemachineCamera;
 
     private void Start()
     {
@@ -23,6 +23,6 @@ public class SeguirJugadorCamara : MonoBehaviour
 
         Transform jugadorTransform = jugador.transform;
 
-        cinemachineCamera.Follow = jugadorTransform;
+        //cinemachineCamera.Follow = jugadorTransform;
     }
 }
