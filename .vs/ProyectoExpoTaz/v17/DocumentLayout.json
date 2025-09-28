@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "B:\\Unity\\Saves\\ProyectoExpoTaz\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\scripts\\jugador\\vidajugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\vidajugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,15 +24,29 @@
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\contenedorcorazones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\enemigo\\movimientoenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigo\\movimientoenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\scripts\\enemigo\\proyectilenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigo\\proyectilenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\scripts\\enemigo\\ataqueenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\enemigo\\proyectilenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigo\\proyectilenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\enemigo\\ataqueenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigo\\ataqueenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,10 +54,45 @@
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\camerafollowandavanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\scripts\\objetos\\corazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\corazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\scripts\\jugador\\vidajugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\vidajugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\itemrecolectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\itemrecolectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
+=======
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\scripts\\objetos\\diamante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetos\\diamante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\scripts\\ui\\contenedorcorazones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\contenedorcorazones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\scripts\\ui\\contenedordiamantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\contenedordiamantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\cannon1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\cannon1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -52,6 +102,39 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\attackbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\ui\\contenedorcorazones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\contenedorcorazones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\ui\\contenedordiamantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\contenedordiamantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\cannon1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\cannon1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\camerafollowandavanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\camerafollowandavanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\scripts\\enemigo\\ataqueenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigo\\ataqueenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\scripts\\da\u00F1oaltocar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\da\u00F1oaltocar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\attackbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\attackbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -59,7 +142,19 @@
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\movimientojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|b:\\unity\\saves\\proyectoexpotaz\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+      "AbsoluteMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|B:\\Unity\\Saves\\ProyectoExpoTaz\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
       "RelativeMoniker": "D:0:0:{02B959A6-D927-CFF9-F6B0-8D987FC7308D}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -90,11 +185,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "MovimientoEnemigo.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Enemigo\\MovimientoEnemigo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigo\\MovimientoEnemigo.cs",
@@ -107,6 +214,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 11,
               "Title": "Da\u00F1oAlTocar.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Da\u00F1oAlTocar.cs",
@@ -206,6 +314,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 1,
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "ProyectilEnemigo.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Enemigo\\ProyectilEnemigo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigo\\ProyectilEnemigo.cs",
@@ -213,11 +324,193 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemigo\\ProyectilEnemigo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-09-16T11:15:27.588Z"
+=======
+              "WhenOpened": "2025-09-16T11:15:27.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+<<<<<<< HEAD
+=======
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "Title": "CameraFollowAndavanced.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\CameraFollowAndavanced.cs",
+              "RelativeDocumentMoniker": "Assets\\CameraFollowAndavanced.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\CameraFollowAndavanced.cs",
+              "RelativeToolTip": "Assets\\CameraFollowAndavanced.cs",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T21:45:11.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+<<<<<<< HEAD
+=======
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwEkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T21:45:11.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "Title": "Cannon1.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Cannon1.cs",
+              "RelativeDocumentMoniker": "Assets\\Cannon1.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Cannon1.cs",
+              "RelativeToolTip": "Assets\\Cannon1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "WhenOpened": "2025-09-15T18:37:53.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+<<<<<<< HEAD
+=======
+              "WhenOpened": "2025-09-15T18:37:53.983Z",
+              "EditorCaption": ""
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+<<<<<<< HEAD
+=======
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "Title": "Da\u00F1oAlTocar.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Da\u00F1oAlTocar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Da\u00F1oAlTocar.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Da\u00F1oAlTocar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Da\u00F1oAlTocar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "WhenOpened": "2025-09-15T18:25:28.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+<<<<<<< HEAD
+=======
+              "WhenOpened": "2025-09-15T18:25:28.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "Title": "AttackBullet.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\AttackBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\AttackBullet.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\AttackBullet.cs",
+              "RelativeToolTip": "Assets\\AttackBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "WhenOpened": "2025-09-15T18:23:34.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+<<<<<<< HEAD
+=======
+              "WhenOpened": "2025-09-15T18:23:34.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GameManager.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\GameManager.cs",
+              "RelativeToolTip": "Assets\\GameManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvyQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "WhenOpened": "2025-09-15T12:23:36.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+<<<<<<< HEAD
+=======
+              "WhenOpened": "2025-09-15T12:23:36.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "Title": "MovimientoJugador.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\MovimientoJugador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\MovimientoJugador.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\MovimientoJugador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\MovimientoJugador.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAYwEYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "WhenOpened": "2025-09-15T09:57:23.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+<<<<<<< HEAD
+=======
+              "WhenOpened": "2025-09-15T09:57:23.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "ItemRecolectable.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\ItemRecolectable.cs",
               "RelativeDocumentMoniker": "Assets\\ItemRecolectable.cs",
@@ -225,29 +518,75 @@
               "RelativeToolTip": "Assets\\ItemRecolectable.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAgwAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "WhenOpened": "2025-09-15T11:56:40.75Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 7,
+<<<<<<< HEAD
+=======
+              "WhenOpened": "2025-09-15T11:56:40.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "Diamante.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Objetos\\Diamante.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\Diamante.cs",
               "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Objetos\\Diamante.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objetos\\Diamante.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAACIAAAAAAAAAAAAIwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "WhenOpened": "2025-09-15T11:55:18.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+<<<<<<< HEAD
+=======
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "WhenOpened": "2025-09-15T11:55:18.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 8,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "AtaqueEnemigo.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Enemigo\\AtaqueEnemigo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigo\\AtaqueEnemigo.cs",
               "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Enemigo\\AtaqueEnemigo.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemigo\\AtaqueEnemigo.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAKAAAAAAAAAAAAAmwLwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T11:09:19.026Z"
@@ -255,19 +594,122 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "ViewState": "AgIAAKAAAAAAAAAAAAAmwLwAAAAAAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAHEAAAAAAAAAAAAuwIMAAAAOAAAAAAAAAA==",
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+              "ViewState": "AgIAAKAAAAAAAAAAAAAmwLwAAAAAAAAAAAAAAA==",
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T11:09:19.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "DocumentIndex": 5,
+=======
+              "DocumentIndex": 1,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+              "DocumentIndex": 5,
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "VidaJugador.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\VidaJugador.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\VidaJugador.cs",
               "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\VidaJugador.cs",
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\VidaJugador.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAEMAAAAAAAAAAAAQwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+=======
+              "ViewState": "AgIAABEAAAAAAAAAAAD4vxUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "WhenOpened": "2025-09-15T10:51:45.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+<<<<<<< HEAD
+=======
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "WhenOpened": "2025-09-15T10:51:45.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 15,
+=======
+              "DocumentIndex": 4,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "Title": "ContenedorCorazones.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\UI\\ContenedorCorazones.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ContenedorCorazones.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\UI\\ContenedorCorazones.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ContenedorCorazones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "WhenOpened": "2025-09-15T12:13:01.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+<<<<<<< HEAD
+=======
+              "WhenOpened": "2025-09-15T12:13:01.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "Title": "ContenedorDiamantes.cs",
+              "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\UI\\ContenedorDiamantes.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ContenedorDiamantes.cs",
+              "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\UI\\ContenedorDiamantes.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ContenedorDiamantes.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "WhenOpened": "2025-09-15T12:23:22.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+<<<<<<< HEAD
+=======
+              "WhenOpened": "2025-09-15T12:23:22.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "CombateJugador.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\CombateJugador.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\CombateJugador.cs",
@@ -279,20 +721,55 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "DocumentIndex": 4,
+=======
+              "DocumentIndex": 0,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+              "DocumentIndex": 4,
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "Corazon.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Objetos\\Corazon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\Corazon.cs",
               "ToolTip": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Objetos\\Corazon.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objetos\\Corazon.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAADEAAAAAAAAAAAAQwEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+=======
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwCUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+              "WhenOpened": "2025-09-15T10:48:25.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+<<<<<<< HEAD
+=======
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "WhenOpened": "2025-09-15T10:48:25.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 16,
+=======
+              "DocumentIndex": 14,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "InteractuarObjetosJugador.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Jugador\\InteractuarObjetosJugador.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\InteractuarObjetosJugador.cs",
@@ -304,7 +781,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 17,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "DocumentIndex": 17,
+=======
+              "DocumentIndex": 15,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+              "DocumentIndex": 17,
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "CajaLoot.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\Objetos\\CajaLoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objetos\\CajaLoot.cs",
@@ -316,7 +805,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 18,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "DocumentIndex": 18,
+=======
+              "DocumentIndex": 16,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+              "DocumentIndex": 18,
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "SeguirJugadorCamara.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\SeguirJugadorCamara.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SeguirJugadorCamara.cs",
@@ -328,7 +829,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 19,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "DocumentIndex": 19,
+=======
+              "DocumentIndex": 17,
+>>>>>>> 21bb9f39121e19c86a89769d654b3695d9b3f479
+=======
+              "DocumentIndex": 19,
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
               "Title": "ControladorVibracion.cs",
               "DocumentMoniker": "B:\\Unity\\Saves\\ProyectoExpoTaz\\Assets\\Scripts\\ControladorVibracion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ControladorVibracion.cs",

@@ -14,6 +14,7 @@ public class MovimientoJugador : MonoBehaviour
     [SerializeField] private Rigidbody2D rb2D;
     [SerializeField] private Animator animator;
     [SerializeField] private Collider2D colisionadorJugador;
+    [SerializeField] private PlayerSoundController soundController; // 🔊 Nuevo
 
     [Header("Movimiento Horizontal")]
     [SerializeField] private float velocidadMovimiento;
@@ -48,6 +49,13 @@ public class MovimientoJugador : MonoBehaviour
         if (!rb2D) rb2D = GetComponent<Rigidbody2D>();
         if (!animator) animator = GetComponent<Animator>();
         if (!colisionadorJugador) colisionadorJugador = GetComponent<Collider2D>();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        if (!soundController) soundController = GetComponent<PlayerSoundController>();
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -103,6 +111,7 @@ public class MovimientoJugador : MonoBehaviour
             if (!estabaEnElSuelo && rb2D.linearVelocity.y <= 0)
             {
                 animator.SetTrigger(STRING_ATERRIZAR);
+                soundController?.playCaida();
             }
         }
 
@@ -123,6 +132,7 @@ public class MovimientoJugador : MonoBehaviour
     {
         entradaSalto = false;
         rb2D.AddForce(new Vector2(0, fuerzaSalto), ForceMode2D.Impulse);
+        soundController?.playSaltar();
     }
 
     private void DesactivarPlataformas()
@@ -147,6 +157,16 @@ public class MovimientoJugador : MonoBehaviour
         if ((entradaHorizontal > 0 && !MirandoALaDerecha()) || (entradaHorizontal < 0 && MirandoALaDerecha()))
         {
             Girar();
+        }
+
+        // 🔊 Pasos en loop
+        if (Mathf.Abs(entradaHorizontal) > 0.1f && enSuelo)
+        {
+            soundController?.playMov1Loop(true);
+        }
+        else
+        {
+            soundController?.playMov1Loop(false);
         }
     }
 
@@ -175,6 +195,10 @@ public class MovimientoJugador : MonoBehaviour
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
     public static void AgregarItem(string itemName)
     {
         inventario.Add(itemName);
@@ -184,4 +208,11 @@ public class MovimientoJugador : MonoBehaviour
     {
         return inventario.Contains(itemName);
     }
+<<<<<<< HEAD
+=======
+=======
+    public static void AgregarItem(string itemName) => inventario.Add(itemName);
+    public static bool TieneItem(string itemName) => inventario.Contains(itemName);
+>>>>>>> d279adf (Agregada escena y carpeta Sounds)
+>>>>>>> 3495f95362d6d91f85984d67d2c988d6f360084f
 }
